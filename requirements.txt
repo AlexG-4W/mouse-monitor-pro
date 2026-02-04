@@ -1,0 +1,5 @@
+pynput
+pystray
+Pillow
+wmi
+pywin32
