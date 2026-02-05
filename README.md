@@ -5,6 +5,9 @@ A high-performance Windows utility designed for gamers, developers, and hardware
 ## Key Features
 - **📊 Session Analytics & Logging**: Record all mouse telemetry (coordinates, acceleration, polling rate, clicks) into CSV files for post-session analysis.
 - **⚡ Click Frequency (CPS)**: Real![scr](https://github.com/user-attachments/assets/d7ccab12-0381-40c7-beaf-4eac62ae4977)
+
+
+
 -time Clicks Per Second display on the HUD overlay.
 - **🔥 Cursor Heatmap**: Automatically generates a high-resolution movement heatmap (PNG) at the end of each session.
 - **🎨 Advanced Overlay Styling**: 
