@@ -1,10 +1,11 @@
+(CPS)**: Real![scr](https://github.com/user-attachments/assets/d7ccab12-0381-40c7-beaf-4eac62ae4977)
 # Mouse Monitor Pro 🖱️ (v2.0)
 
 A high-performance Windows utility designed for gamers, developers, and hardware enthusiasts to analyze mouse sensor behavior and cursor precision in real-time.
 
 ## Key Features
 - **📊 Session Analytics & Logging**: Record all mouse telemetry (coordinates, acceleration, polling rate, clicks) into CSV files for post-session analysis.
-- **⚡ Click Frequency (CPS)**: Real![scr](https://github.com/user-attachments/assets/d7ccab12-0381-40c7-beaf-4eac62ae4977)
+- **⚡ Click Frequency 
 
 
 
