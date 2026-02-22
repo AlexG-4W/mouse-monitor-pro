@@ -9,6 +9,7 @@ A high-performance hardware monitoring utility for mouse diagnostics, performanc
 - **Dynamic Skin Engine:** Instant visual theme updates (Dark, Cyberpunk, Matrix) without restarting monitoring.
 - **Physical Button Health Counters:** Dedicated L/R fault counters in both the main dashboard and floating overlay.
 - **Enhanced Session Logging:** Detailed CSV export with UTF-8 support and automated fault flagging (`DC_FAULT`).
+![scr v3](https://github.com/user-attachments/assets/7af8936b-4cae-4441-a9fc-61a97a2e8fde)
 
 # Mouse Monitor Pro 🖱️ (v2.0)
 
