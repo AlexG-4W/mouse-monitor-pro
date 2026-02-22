@@ -1,3 +1,13 @@
+Mouse Monitor Pro v3
+A high-performance hardware monitoring utility for mouse diagnostics, performance tracking, and hardware fault detection. This tool provides real-time overlays for polling rate, acceleration, and physical button health.
+
+🚀 Key Features (v3 Update)
+Double-Click (DC) Fault Detection: Real-time hardware debounce monitoring. Detects physical button malfunctions by tracking click intervals (80ms threshold).
+Multi-Monitor Heatmap: Full virtual screen support. Generate mouse activity heatmaps across all connected displays.
+Dynamic Skin Engine: Instant visual theme updates (Dark, Cyberpunk, Matrix) without restarting monitoring.
+Physical Button Health Counters: Dedicated L/R fault counters in both the main dashboard and floating overlay.
+Enhanced Session Logging: Detailed CSV export with UTF-8 support and automated fault flagging (DC_FAULT).
+
 # Mouse Monitor Pro 🖱️ (v2.0)
 
 A high-performance Windows utility designed for gamers, developers, and hardware enthusiasts to analyze mouse sensor behavior and cursor precision in real-time.
