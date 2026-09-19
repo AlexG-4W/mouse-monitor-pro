@@ -1,5 +1,23 @@
-pynput
-pystray
-Pillow
-wmi
-pywin32
+# Lower bounds are the versions this project is actually verified against on the
+# development machine (Windows 11, Python 3.11.9 x64). There are deliberately no
+# upper bounds: nobody has tested them, and inventing one would forbid versions
+# that may well work fine.
+#
+# This file is ASCII on purpose. pip decodes requirements files using the system
+# locale codepage unless a coding declaration is present, so non-ASCII comments
+# here break "pip install -r requirements.txt" on any machine whose locale is not
+# UTF-8 -- which is most Windows machines. (Found the hard way, in a clean venv.)
+
+# 1.8.1 is NOT a cosmetic requirement. The synthetic-event filter depends on the
+# `injected` argument that pynput passes to the on_move / on_click handlers. A
+# version that does not pass it leaves the filter permanently inert: no error, no
+# warning, just no filtering.
+pynput>=1.8.1
+
+pystray>=0.19.5
+Pillow>=12.1.0
+wmi>=1.5.1
+pywin32>=311
+
+# Building the EXE (pyinstaller MouseMonitorPro.spec) additionally needs
+# pyinstaller>=6.18.0. It is not listed here: running from source does not need it.
